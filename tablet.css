@@ -1,0 +1,54 @@
+@media only screen and (max-width:768px){
+
+    .category{
+
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 1rem;
+    }
+
+    .comments{
+
+        max-width: 100%;
+         height: 330px;
+         
+         display: flex;
+        
+         /* border: 2px solid red; */
+     }
+
+     .pictures{
+
+        gap: 2rem;
+     }
+
+     .overlay2{
+
+        position: relative;
+        bottom: 0;
+        min-width: 100%;
+        height: 100%;
+         /* background-color: aquamarine; */
+        z-index: 300000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .customers h1{
+
+        padding-top: 4rem;
+        padding-bottom: 0rem;
+    }
+
+    .comment{
+         
+        min-width: 100%;
+       
+        padding: 2rem 1.5rem;
+        text-align: center;
+        box-sizing: border-box;
+      
+    }
+}
